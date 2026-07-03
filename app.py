@@ -1,6 +1,6 @@
 from flask import Flask, request
 from twilio.twiml.messaging_response import MessagingResponse
-from google import genai
+import google.genai as genai
 import os
 
 app = Flask(__name__)
